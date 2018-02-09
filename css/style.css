@@ -48,7 +48,7 @@ body {
 }
 .button {
   text-decoration: none;
-  padding: 26px 63px; 
+  padding: 26px 63px;
   color: #ffffff;
   background-color: #ec744a;
   font-size: 30px;
@@ -88,7 +88,7 @@ body {
 
 @media (max-width: 1220px) {
   .container {
-    margin: -201px 0 0 -403.75px;
+    margin: -201px 0 0 -404.77px;
   }
   .img-card {
     margin: 51px 80px 51px 38.5px;
@@ -153,47 +153,51 @@ body {
     padding: 10px;
     font-size: 15px;
     display: block;
-    max-width: 200px;
+    max-width: 150px;
     margin: 20px auto;
   }
 }
 
 @media (max-width: 576px) {
   .container {
-    margin: -228px 0 0 -150px;
+    margin: -278px 0 0 -150px;
   }
   .img-card {
     margin: 10px auto;
     width: 300px;
-    display: block;
   }
   .description {
-    max-width: 300px;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
+    max-width: 250px;
   }
   .p-desc {
-    margin: 15px 0 30px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    margin: -229px 0 0 -115px;
+  }
+  .img-card {
+    width: 230px;
+  }
+  .description {
+    max-width: 200px;
+  }
+  .head-h1 {
+    font-size: 14px;
+  }
+  .p-desc {
+    margin: 10px 0 20px;
+    font-size: 12px;
+  }
+  .p-head-price {
     font-size: 15px;
   }
   .p-price {
-    margin: 0;
-    font-size: 25px;
-    display: inline-block;
-  }
-  .head-h1 {
     font-size: 15px;
-  }
-  .p-head-price {
-    display: inline-block;
-    font-size: 20px;
   }
   .button {
-    padding: 10px;
-    font-size: 15px;
-    display: block;
-    max-width: 200px;
-    margin: 20px auto;
+    font-size: 13px;
   }
 }
